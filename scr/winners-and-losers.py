@@ -18,7 +18,7 @@ from polygon import RESTClient
 
 # Load the configuration file
 
-file_path = '/Users/nadee/Desktop/PROJECTS/winners-and-sinners/config/config.txt'
+file_path = '/Users/nadee/Desktop/PROJECTS/winners-and-losers/config/config.txt'
 
 # Open and load the JSON data
 with open(file_path, 'r') as file:
@@ -87,7 +87,7 @@ def extract_daily_market_summary(date_str):
         )
             
         # Save to CSV
-        market_summary_df.to_csv('/Users/nadee/Desktop/PROJECTS/winners-and-sinners/raw_data/polygon_{}.csv'.format(date_str), index = False)
+        market_summary_df.to_csv('/Users/nadee/Desktop/PROJECTS/winners-and-losers/raw_data/polygon_{}.csv'.format(date_str), index = False)
         print(f'Saved {date_str} market summary as .csv')
         return market_summary_df
     
