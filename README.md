@@ -23,7 +23,9 @@ This project showcases skills across API integration, data engineering, analytic
 
 ### Demo Dashboard
 
-[View the Looker Studio Dashboard ->](https://lookerstudio.google.com/reporting/943a9115-1031-49d1-a6ee-d2cf838a7afe)
+<a href="https://lookerstudio.google.com/reporting/943a9115-1031-49d1-a6ee-d2cf838a7afe">
+  <img src="https://img.shields.io/badge/View-Looker%20Studio%20Dashboard-green" width="250"/>
+</a>
 
 Includes:
 
