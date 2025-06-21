@@ -11,3 +11,6 @@ __pycache__/
 
 # Secrets
 config/
+
+# Data files
+raw_data/*
